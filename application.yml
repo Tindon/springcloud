@@ -12,3 +12,9 @@ spring:
  profiles: default
  application:
       name: microconfig-test-default
+      
+---
+spring:
+ profiles: default
+ application:
+      name: microcloud-config
