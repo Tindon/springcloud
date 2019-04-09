@@ -9,8 +9,13 @@ server:
 spring:
   profiles: dev
   application:
-      name: microconfig-test-client
+      name: microconfig-test-client2
 
+eureka:
+ client:
+  serviceUrl:
+    defaultZone: http://admin:enjoy@localhost:7301/eureka
+  register-with-eureka: false
 
 ---
 server:
@@ -19,6 +24,11 @@ server:
 spring:
   profiles: beta
   application:
-      name: microconfig-test-client
+      name: microconfig-test-client2
 
-
+eureka:
+ client:
+  serviceUrl:
+    defaultZone: http://admin:enjoy@localhost:7301/eureka
+  register-with-eureka: false 
+  
