@@ -15,7 +15,7 @@ eureka:
  client:
   service-url:
     defaultZone: http://admin:enjoy@localhost:7001/eureka
-  register-with-eureka:false
+ 
 ---
 server:
   port: 8102
@@ -29,5 +29,5 @@ eureka:
  client:
   service-url:
     defaultZone: http://admin:enjoy@localhost:7001/eureka
-  register-with-eureka:false
+ 
 
